@@ -45,7 +45,3 @@ def encode_Ggg(text):
 print(decode_Ggg("H GgG d gGg e ggG l GGg o gGG r Ggg w ggg",
                  "GgGggGGGgGGggGG, ggggGGGggGGggGg!"))
 print(encode_Ggg("Hello, World!"))
-
-    
-
-
