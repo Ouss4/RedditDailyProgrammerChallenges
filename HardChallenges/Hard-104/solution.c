@@ -1,3 +1,12 @@
+/*
+*
+*@Author: Ouss4
+* @Github : github.com/Ouss4
+* @Date: 02/04/2016
+* @Description: Solution for Hard 104.
+*
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
