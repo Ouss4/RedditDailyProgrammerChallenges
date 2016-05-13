@@ -1,3 +1,8 @@
+# @Author: Ouss4
+# @Github : github.com/Ouss4
+# @Date: 20/03/2016
+# @Description: Solution for easy 261.
+
 from math import sqrt
 
 def getLines(square, N):
@@ -14,7 +19,7 @@ def getNdDiagonal(square, N):
     
 def isMagic(square):
     N = int(sqrt(len(square)))
-    M = N*(N**2+1) / 2
+    M = N*(N**2+1) / 2 # The Magic Number.
 
     for line in getLines(square, N):
         if sum(line) != M:
